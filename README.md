@@ -3,7 +3,7 @@
 This repository contains the official implementation of our DiDiCM paper: *"Advancing Image Classification with Discrete Diffusion Classification Modeling"* ([arxiv](https://arxiv.org/abs/2511.20263)).
 
 <p align="center">
-  <img src="overview.gif" alt="Advancing Image Classification with Discrete Diffusion Classification Modeling" />
+  <img src="figures/overview.gif" alt="Advancing Image Classification with Discrete Diffusion Classification Modeling" />
 </p>
 
 The training and validation scripts are based on [timm's repository](https://github.com/huggingface/pytorch-image-models/tree/main) and have been adapted to work with our DiDiCM approach.
@@ -44,7 +44,7 @@ To extract the downloaded files, use this [script](https://gist.github.com/BIGBA
 We present the DiDiRN architecture:
 
 <p align="center">
-  <img src="didirn.png" alt="DiDiRN Architecture" width="70%" />
+  <img src="figures/didirn.png" alt="DiDiRN Architecture" width="70%" />
 </p>
 
 The DiDiRN architecture is built upon the ResNet design for a fair comparison and is therefore available in all comparable variants: DiDiRN-18, DiDiRN-34, DiDiRN-50, DiDiRN-101, and DiDiRN-152.
