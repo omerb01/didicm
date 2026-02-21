@@ -1,7 +1,8 @@
-torch>=1.7
+# Use 2.6+ to avoid libcusparse/libnvJitLink symbol mismatch on CUDA 12.x (fixed in 2.6.0)
+torch>=2.6
 torchvision
+numpy>=2.0
 pyyaml
 huggingface_hub>=0.17.0
 safetensors>=0.2
-numpy
 timm==1.0.19
