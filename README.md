@@ -1,6 +1,16 @@
 # Advancing Image Classification with Discrete Diffusion Classification Modeling
 
-This repository contains the official implementation of our DiDiCM paper: *"Advancing Image Classification with Discrete Diffusion Classification Modeling"* ([arxiv](https://arxiv.org/abs/2511.20263)).
+### [**CVPR 2026 (Oral)**](https://cvpr.thecvf.com/Conferences/2026)
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2511.20263"><img src="https://img.shields.io/badge/arXiv-2511.20263-b31b1b.svg" alt="arXiv"></a>
+  <a href=""><img src="https://img.shields.io/badge/CVPR%202026-Paper-4b44ce.svg" alt="CVPR 2026 Paper"></a>
+  <a href="https://omerb01.github.io/didicm-web"><img src="https://img.shields.io/badge/Project-Page-blue.svg" alt="Project Page"></a>
+</p>
+
+This repository contains the official implementation of our DiDiCM paper: *"Advancing Image Classification with Discrete Diffusion Classification Modeling"*.
+
+> **Omer Belhasin, Shelly Golan, Ran El-Yaniv, Michael Elad**
 
 <p align="center">
   <img src="figures/overview.gif" alt="Advancing Image Classification with Discrete Diffusion Classification Modeling" />
