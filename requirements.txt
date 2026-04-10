@@ -1,5 +1,7 @@
-# Use 2.6+ to avoid libcusparse/libnvJitLink symbol mismatch on CUDA 12.x (fixed in 2.6.0)
-torch>=2.6
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# cu121 wheels match driver 535.x (max CUDA 12.2); latest cu121 build is 2.5.1
+torch>=2.5
 torchvision
 numpy>=2.0
 pyyaml

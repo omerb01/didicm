@@ -15,7 +15,7 @@ if requirements_file.exists():
     requirements = [
         req.strip()
         for req in requirements_file.read_text(encoding="utf-8").strip().split("\n")
-        if req.strip() and not req.startswith("#")
+        if req.strip() and not req.startswith("#") and not req.startswith("-")
     ]
 
 setup(
